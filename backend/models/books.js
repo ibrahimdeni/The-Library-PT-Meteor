@@ -45,6 +45,7 @@ module.exports = (sequelize, DataTypes) => {
       published: DataTypes.STRING,
       pages: DataTypes.STRING,
       isbn: DataTypes.STRING,
+      image: DataTypes.STRING,
       status: DataTypes.STRING,
       userId: DataTypes.INTEGER,
     },
